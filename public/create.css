@@ -1,0 +1,43 @@
+
+.form-group{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: black;
+    font-weight: bold;
+}
+input[type="text"] {
+  width: 300px;
+  padding: 8px;
+  border: 2px solid #aaa;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  padding: 8px;
+}
+
+/* Style for textarea */
+textarea {
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  border: 2px solid #aaa;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: none; /* disables bottom corner resize if not needed */
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  margin: 7px;
+  padding-left: 0;
+}
+
+.submit-btn{
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: large;
+    width: 100%;
+    background-color: rgb(142, 202, 153);
+    color: rgb(0, 0, 0);
+    height: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
