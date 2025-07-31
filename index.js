@@ -1,7 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
 const app = express();
-const PORT = process.env.PORT || 3000;
+const Pport = process.env.port || 3000;
 let post = [];
 
 app.use(bodyParser.urlencoded({extended:true}));
